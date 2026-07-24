@@ -1,43 +1,93 @@
-# Especificações do Projeto
+# 📋 Especificação do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
+## Nome do Projeto
 
-## Personas
+**Calculadora de Índice de Massa Corporal (IMC)**
 
-Identifique, em torno de, 3 personas. Para cada persona, lembre-se de descrever suas angústicas, frustrações e expectativas de vida relacionadas ao problema. Além disso, defina uma "aparência" para a persona. Para isso, você poderá utilizar sites como https://this-person-does-not-exist.com/pt#google_vignette ou https://thispersondoesnotexist.com/
+## Descrição
 
-Utilize também como referência o exemplo abaixo:
+A Calculadora de IMC é uma aplicação web desenvolvida em PHP que permite ao usuário calcular seu Índice de Massa Corporal (IMC) de forma simples e rápida. A aplicação recebe o peso e a altura informados pelo usuário, realiza o cálculo automaticamente e apresenta a classificação correspondente conforme os critérios da Organização Mundial da Saúde (OMS).
 
-<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/IntApplicationProject-Template/blob/main/docs/img/AnaClara1.png" alt="Persona1"/>
+Este projeto foi desenvolvido com fins educacionais, visando consolidar conhecimentos fundamentais de desenvolvimento web utilizando HTML, CSS e PHP.
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+---
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
+## Objetivo
 
-## Histórias de Usuários
+Desenvolver uma aplicação web para praticar conceitos essenciais da linguagem PHP, incluindo manipulação de formulários, funções, estruturas condicionais e integração entre HTML e CSS.
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+---
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Ana Clara  | Uma forma de identificar se uma agência é realmente confiável           | Me sentir mais segura ao contratar seus serviços               |
-|Ana Clara       | Ter um mecanismo eficiente e rápido de comunicação                 | Que eu possa sanar todas as minhas dúvidas rapidamente |
+## Funcionalidades
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução ou para execução da sua prática extensionista/curso. As 
+* Receber o peso do usuário em quilogramas (kg);
+* Receber a altura do usuário em metros (m);
+* Validar o preenchimento dos campos obrigatórios;
+* Calcular automaticamente o Índice de Massa Corporal (IMC);
+* Exibir o resultado com duas casas decimais;
+* Informar a classificação do IMC de acordo com a tabela da OMS;
+* Apresentar uma interface simples, intuitiva e responsiva.
 
-Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação e também para identificar as dores que sua prática extensionista irá minimizar/sanar. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
+---
 
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+## Regras de Negócio
 
+A aplicação realiza o cálculo utilizando a fórmula:
 
+**IMC = Peso / (Altura²)**
+
+Após o cálculo, o resultado é classificado conforme os seguintes intervalos:
+
+| IMC              | Classificação      |
+| ---------------- | ------------------ |
+| Menor que 18,5   | Abaixo do peso     |
+| 18,5 até 24,9    | Peso normal        |
+| 25,0 até 29,9    | Sobrepeso          |
+| 30,0 até 34,9    | Obesidade Grau I   |
+| 35,0 até 39,9    | Obesidade Grau II  |
+| 40,0 ou superior | Obesidade Grau III |
+
+---
+
+## Tecnologias Utilizadas
+
+* HTML5
+* CSS3
+* PHP
+
+---
+
+## Estrutura do Projeto
+
+```text
+calculadora-imc/
+│
+├── index.php
+├── imc.css
+└── README.md
+```
+
+---
+
+## Conceitos Aplicados
+
+Durante o desenvolvimento deste projeto foram praticados os seguintes conceitos:
+
+* Estrutura básica do HTML5;
+* Estilização com CSS3;
+* Formulários HTML;
+* Método GET;
+* Captura de dados utilizando `$_GET`;
+* Validação com `required`;
+* Uso de `isset()`;
+* Criação de funções em PHP;
+* Parâmetros e retorno (`return`);
+* Operadores matemáticos;
+* Estruturas condicionais (`if`, `elseif` e `else`);
+* Arredondamento de números com `round()`.
+
+---
+
+## Objetivo de Aprendizagem
+
+Este projeto faz parte da minha jornada de estudos em PHP e foi desenvolvido com o propósito de fortalecer os conhecimentos fundamentais da linguagem antes do estudo de frameworks como Laravel e do desenvolvimento de aplicações mais robustas.
