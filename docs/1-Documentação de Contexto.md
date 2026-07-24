@@ -10,13 +10,13 @@ Projeto desenvolvido como parte dos meus estudos em **PHP**, com o objetivo de p
 - Interface simples, limpa e responsiva;
 - Organização da lógica utilizando funções em PHP.
 
-## 🛠️ Tecnologias utilizadas
+## 🛠️ Tecnologias utilizadas (até o momento)
 
 - HTML5
 - CSS3
 - PHP
 
-## 📚 Conceitos praticados
+## 📚 Conceitos praticados (até o momento)
 
 Durante o desenvolvimento deste projeto foram utilizados os seguintes conceitos:
 
@@ -57,7 +57,7 @@ http://localhost/calculadora-imc-php
 
 Este projeto faz parte da minha jornada de aprendizado em PHP. O foco foi consolidar conceitos fundamentais da linguagem antes de avançar para frameworks como Laravel e para projetos mais robustos.
 
-## 👨‍💻 Autor
+## 👨‍💻 Desenvolvedor
 
 **Lucas Paschoalini**
 
