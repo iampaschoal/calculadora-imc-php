@@ -1,46 +1,64 @@
-# Introdução
+# 📊 Calculadora de IMC em PHP
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto. 
+Projeto desenvolvido como parte dos meus estudos em **PHP**, com o objetivo de praticar os principais conceitos da linguagem e a integração entre **HTML, CSS e PHP**.
 
-## Problema
+## 🚀 Funcionalidades
 
-Nesse momento você deve apresentar o problema que a sua aplicação deve resolver. No entanto, não é a hora de comentar sobre a aplicação.
+- Cálculo automático do Índice de Massa Corporal (IMC);
+- Classificação do resultado conforme a tabela da Organização Mundial da Saúde (OMS);
+- Validação de campos obrigatórios utilizando HTML (`required`);
+- Interface simples, limpa e responsiva;
+- Organização da lógica utilizando funções em PHP.
 
-Descreva também o contexto em que essa aplicação será usada, se houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de fato existir, pois ainda não é a hora de apresentar requisitos detalhados ou projetos.
+## 🛠️ Tecnologias utilizadas
 
-Nesse momento, o grupo pode optar por fazer uso de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
+- HTML5
+- CSS3
+- PHP
 
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+## 📚 Conceitos praticados
 
-## Objetivos
+Durante o desenvolvimento deste projeto foram utilizados os seguintes conceitos:
 
-Aqui você deve descrever os objetivos do trabalho que será realizado pelo grupo indicando qual é o objetivo geral que se busca atingir para solucionar/minimizar o problema apresentado acima. 
+- Estrutura de formulários HTML;
+- Método `GET`;
+- Captura de dados com `$_GET`;
+- Uso de `isset()`;
+- Criação e utilização de funções;
+- Parâmetros e retorno (`return`);
+- Operadores matemáticos;
+- Estruturas condicionais (`if`, `elseif` e `else`);
+- Arredondamento de valores com `round()`;
+- Organização entre HTML, CSS e PHP.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+## 📈 Classificação do IMC
 
-## Justificativa
+| IMC | Classificação |
+|------|---------------|
+| Menor que 18,5 | Abaixo do peso |
+| 18,5 até 24,9 | Peso normal |
+| 25 até 29,9 | Sobrepeso |
+| 30 até 34,9 | Obesidade Grau I |
+| 35 até 39,9 | Obesidade Grau II |
+| 40 ou mais | Obesidade Grau III |
 
-Explique de forma clara a relevância da aplicação escolhida, justificando os objetivos específicos e os aspectos do software que serão aprofundados, e quantifique o impacto do problema com dados concretos (números, percentuais, indicadores) obtidos por bases oficiais ou outras fontes confiáveis, sempre citadas no padrão ABNT (no formato [Numérico] ou (AUTOR, ANO)).
+## ▶️ Como executar
 
-**Relacione o problema aos Objetivos de Desenvolvimento Sustentável (ODS), indicando quais ODS e subobjetivos são atendidos e descrevendo como o projeto contribui para cada um deles, garantindo coerência entre o impacto mensurado e as metas selecionadas.**
+1. Instale o XAMPP ou outro servidor com suporte a PHP;
+2. Copie o projeto para a pasta `htdocs`;
+3. Inicie o Apache;
+4. Acesse no navegador:
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+```
+http://localhost/calculadora-imc-php
+```
 
-## Público-Alvo
+## 🎯 Objetivo
 
-Descreva quem serão as pessoas que usarão a sua aplicação ou se beneficiarão da ação extensionista, indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes/beneficiados ou quais serão os papéis dos usuários na aplicação/ação extensionista. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações hierárquicas, etc.
+Este projeto faz parte da minha jornada de aprendizado em PHP. O foco foi consolidar conceitos fundamentais da linguagem antes de avançar para frameworks como Laravel e para projetos mais robustos.
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual.
+## 👨‍💻 Autor
 
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+**Lucas Paschoalini**
+
+Projeto desenvolvido para fins de estudo e evolução na área de desenvolvimento web.
