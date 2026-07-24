@@ -1,20 +1,12 @@
-# CALCULADORA DE INDICE DE MASSA CORPORAL 
-# EM (HTML5, CSS e PHP)
+# CALCULADORA DE INDICE DE MASSA CORPORAL EM (HTML5, CSS e PHP)
 
 `PPC-CC: PUC Poços de Caldas - Ciência da Computação`
-`Disciplina: NOME DA DISCIPLINA`
-`20XX - Semestre XX`
+Linguagens utilizadas: HTML5, CSS e PHP.
+`2026`
 
-## Integrantes
+## Desenvolvedor
 
-- Jeff Bezos
-- Bill Gates
-- Larry Ellison
-- Mark Zuckerberg
-
-## Professor
-
-- Mestre Yoda
+- Lucas Caiaffa Paschoalini
 
 # Documentação
 
