@@ -1,4 +1,4 @@
-# TÍTULO DO PROJETO
+# CALCULADORA DE INDICE DE MASSA CORPORAL EM (HTML5, CSS e PHP)
 
 `PPC-CC: PUC Poços de Caldas - Ciência da Computação`
 `Disciplina: NOME DA DISCIPLINA`
