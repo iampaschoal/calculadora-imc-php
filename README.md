@@ -1,7 +1,6 @@
 # CALCULADORA DE INDICE DE MASSA CORPORAL EM (HTML5, CSS e PHP)
 
 `Linguagens utilizadas: HTML5, CSS e PHP.
-`2026`
 
 ## Desenvolvedor
 
