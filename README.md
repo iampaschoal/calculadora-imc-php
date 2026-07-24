@@ -11,7 +11,7 @@
 |  :----:   | ----------- |
 | ETAPA 1 | <a href="docs/1-Documentação de Contexto.md"> Documentação de Contexto</a> <br> <a href="docs/2-Especificação do Projeto.md"> Especificação do Projeto</a> <br> |
 | ETAPA 2 | <a href="docs/3-Detalhamento preliminar.md"> Detalhamento preliminar </a> |
-| ETAPA 3 | <a href="docs/6-Apresentação do Projeto.md"> Apresentação e entrega finais do projeto</a> |
+| ETAPA 3 | <a href="docs/4-Apresentação do Projeto.md"> Apresentação final do projeto</a> |
 
 # Código
 
