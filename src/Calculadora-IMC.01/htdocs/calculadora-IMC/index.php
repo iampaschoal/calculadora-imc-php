@@ -42,6 +42,10 @@
         $imc_user = 0;
 
         function imc(float $peso, float $altura){
+            if($altura <= 0){
+                return null;
+            }
+            
             return $peso / ($altura * $altura);
         }
 
@@ -78,5 +82,4 @@
 
     </body>
 </html>
-
 
