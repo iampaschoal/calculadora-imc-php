@@ -15,16 +15,12 @@ body {
 }
 
 .calculadora {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 
     background: white;
-    padding: 30px;
-    width: 350px;
-    border-radius: 15px;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    padding: 20px;          
+    width: 320px;           
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15); 
     text-align: center;
 }
 
